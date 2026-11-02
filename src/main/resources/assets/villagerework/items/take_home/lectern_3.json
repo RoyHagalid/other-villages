@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/lectern"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "villagerework:item/take_home/lectern_3"
+      }
+    ]
+  }
+}

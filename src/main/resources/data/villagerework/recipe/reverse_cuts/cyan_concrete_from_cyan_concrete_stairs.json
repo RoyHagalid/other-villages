@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:cyan_concrete_stairs",
+  "result": {
+    "id": "minecraft:cyan_concrete"
+  }
+}

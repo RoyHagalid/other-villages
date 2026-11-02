@@ -1,0 +1,406 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "p0_particle": "block/brewing_stand",
+    "p0_base": "block/brewing_stand_base",
+    "p0_stand": "block/brewing_stand",
+    "p1_particle": "block/brewing_stand",
+    "p1_stand": "block/brewing_stand",
+    "p2_particle": "block/brewing_stand",
+    "p2_stand": "block/brewing_stand",
+    "p3_particle": "block/brewing_stand",
+    "p3_stand": "block/brewing_stand",
+    "particle": "block/brewing_stand"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#p0_stand"
+        },
+        "up": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#p0_stand"
+        },
+        "north": {
+          "uv": [
+            7,
+            2,
+            9,
+            16
+          ],
+          "texture": "#p0_stand"
+        },
+        "south": {
+          "uv": [
+            7,
+            2,
+            9,
+            16
+          ],
+          "texture": "#p0_stand"
+        },
+        "west": {
+          "uv": [
+            7,
+            2,
+            9,
+            16
+          ],
+          "texture": "#p0_stand"
+        },
+        "east": {
+          "uv": [
+            7,
+            2,
+            9,
+            16
+          ],
+          "texture": "#p0_stand"
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        0,
+        5
+      ],
+      "to": [
+        15,
+        2,
+        11
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9,
+            5,
+            15,
+            11
+          ],
+          "texture": "#p0_base",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            9,
+            5,
+            15,
+            11
+          ],
+          "texture": "#p0_base"
+        },
+        "north": {
+          "uv": [
+            9,
+            14,
+            15,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "south": {
+          "uv": [
+            9,
+            14,
+            15,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "west": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "east": {
+          "uv": [
+            5,
+            14,
+            11,
+            16
+          ],
+          "texture": "#p0_base"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        7,
+        2,
+        7
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": "#p0_base",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": "#p0_base"
+        },
+        "north": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        0,
+        9
+      ],
+      "to": [
+        7,
+        2,
+        15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": "#p0_base",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": "#p0_base"
+        },
+        "north": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            7,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "west": {
+          "uv": [
+            9,
+            14,
+            15,
+            16
+          ],
+          "texture": "#p0_base"
+        },
+        "east": {
+          "uv": [
+            9,
+            14,
+            15,
+            16
+          ],
+          "texture": "#p0_base"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        16,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "texture": "#p1_stand"
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p1_stand"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.41,
+        0,
+        8
+      ],
+      "to": [
+        7.59,
+        16,
+        8
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -45
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p2_stand"
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "texture": "#p2_stand"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.41,
+        0,
+        8
+      ],
+      "to": [
+        7.59,
+        16,
+        8
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 45
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#p3_stand"
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "texture": "#p3_stand"
+        }
+      }
+    }
+  ]
+}

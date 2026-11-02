@@ -1,0 +1,46 @@
+{
+	"required": true,
+	"package": "dev.villagerework.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractArrowMixin",
+		"AbstractContainerMenuInvoker",
+		"AbstractContainerMenuMixin",
+		"AbstractFurnaceBlockEntityMixin",
+		"AbstractFurnaceMenuMixin",
+		"AbstractVillagerInvoker",
+		"BannerDuplicateRecipeMixin",
+		"BannerPatternLayersMixin",
+		"BaseContainerBlockEntityMixin",
+		"BlockBehaviourMixin",
+		"BlockItemMixin",
+		"BrewingStandBlockEntityMixin",
+		"BrewingStandMenuMixin",
+		"CartographyTableMenuMixin",
+		"ComposterBlockMixin",
+		"DispenserBlockMixin",
+		"GrindstoneBlockMixin",
+		"GrindstoneMenuMixin",
+		"HopperBlockEntityMixin",
+		"ItemCostMixin",
+		"ItemStackMixin",
+		"LayeredCauldronBlockMixin",
+		"LoomMenuMixin",
+		"MapItemMixin",
+		"PistonBaseBlockMixin",
+		"ServerGamePacketListenerImplMixin",
+		"SmithingMenuMixin",
+		"StonecutterMenuMixin",
+		"VillagerGoalPackagesMixin",
+		"OfferFlowerGoalMixin",
+		"VillagerMixin",
+		"WanderingTraderMixin",
+		"WanderingTraderSpawnerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

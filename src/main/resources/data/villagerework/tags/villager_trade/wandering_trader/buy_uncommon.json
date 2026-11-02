@@ -1,0 +1,21 @@
+{
+  "values": [
+    "villagerework:wandering_trader/bread_emerald",
+    "villagerework:wandering_trader/pumpkin_pie_emerald",
+    "villagerework:wandering_trader/ink_sac_emerald",
+    "villagerework:wandering_trader/tropical_fish_emerald",
+    "villagerework:wandering_trader/pufferfish_emerald",
+    "villagerework:wandering_trader/cooked_rabbit_emerald",
+    "villagerework:wandering_trader/dried_kelp_block_emerald",
+    "villagerework:wandering_trader/terracotta_emerald",
+    "villagerework:wandering_trader/iron_ingot_emerald",
+    "villagerework:wandering_trader/spectral_arrow_emerald",
+    "villagerework:wandering_trader/experience_bottle_emerald",
+    "villagerework:wandering_trader/bookshelf_emerald",
+    "villagerework:wandering_trader/shield_emerald",
+    "villagerework:wandering_trader/chainmail_helmet_emerald",
+    "villagerework:wandering_trader/chainmail_boots_emerald",
+    "villagerework:wandering_trader/shears_emerald",
+    "villagerework:wandering_trader/flint_and_steel_emerald"
+  ]
+}

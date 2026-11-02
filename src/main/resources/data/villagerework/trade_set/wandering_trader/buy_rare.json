@@ -1,0 +1,5 @@
+{
+  "amount": 1,
+  "random_sequence": "villagerework:trade_set/wandering_trader/buy_rare",
+  "trades": "#villagerework:wandering_trader/buy_rare"
+}

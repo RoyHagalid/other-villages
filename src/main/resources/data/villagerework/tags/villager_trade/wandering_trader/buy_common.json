@@ -1,0 +1,28 @@
+{
+  "values": [
+    "villagerework:wandering_trader/wheat_emerald",
+    "villagerework:wandering_trader/carrot_emerald",
+    "villagerework:wandering_trader/potato_emerald",
+    "villagerework:wandering_trader/beetroot_emerald",
+    "villagerework:wandering_trader/cod_emerald",
+    "villagerework:wandering_trader/salmon_emerald",
+    "villagerework:wandering_trader/cooked_porkchop_emerald",
+    "villagerework:wandering_trader/cooked_beef_emerald",
+    "villagerework:wandering_trader/cooked_mutton_emerald",
+    "villagerework:wandering_trader/cooked_chicken_emerald",
+    "villagerework:wandering_trader/bricks_emerald",
+    "villagerework:wandering_trader/stone_bricks_emerald",
+    "villagerework:wandering_trader/white_wool_emerald",
+    "villagerework:wandering_trader/iron_chain_emerald",
+    "villagerework:wandering_trader/arrow_emerald",
+    "villagerework:wandering_trader/item_frame_emerald",
+    "villagerework:wandering_trader/redstone_emerald",
+    "villagerework:wandering_trader/glowstone_dust_emerald",
+    "villagerework:wandering_trader/book_emerald",
+    "villagerework:wandering_trader/map_emerald",
+    "villagerework:wandering_trader/bucket_emerald",
+    "villagerework:wandering_trader/iron_sword_emerald",
+    "villagerework:wandering_trader/iron_axe_emerald",
+    "villagerework:wandering_trader/bundle_emerald"
+  ]
+}

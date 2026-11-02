@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:block/cartography_table",
+  "textures": {
+    "vr_cartography_table_top": "villagerework:block/tier/cartography_table_top_2",
+    "vr_cartography_table_side1": "villagerework:block/tier/cartography_table_side1_2",
+    "vr_cartography_table_side2": "villagerework:block/tier/cartography_table_side2_2"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "up": {
+          "cullface": "up",
+          "texture": "#vr_cartography_table_top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cartography_table_side1",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cartography_table_side2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

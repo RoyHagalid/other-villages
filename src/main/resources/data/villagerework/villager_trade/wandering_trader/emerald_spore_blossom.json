@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "minecraft:spore_blossom"
+  },
+  "max_uses": 2,
+  "reputation_discount": 0.0,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 8
+  }
+}

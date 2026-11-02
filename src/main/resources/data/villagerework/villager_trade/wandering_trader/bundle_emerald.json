@@ -1,0 +1,13 @@
+{
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 4,
+  "reputation_discount": 0.0,
+  "wants": {
+    "id": "minecraft:bundle",
+    "components": {
+      "minecraft:bundle_contents": []
+    }
+  }
+}
