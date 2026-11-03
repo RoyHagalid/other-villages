@@ -53,7 +53,7 @@ just something else.
 | Armorer (blast furnace) | coal, raw iron, raw copper, lava | iron and gold nuggets, chains, bars | iron ingots, chainmail helmet & boots | chainmail chestplate & leggings | iron block / netherite scrap |
 | Toolsmith (smithing table) | coal, sticks, flint, raw copper | copper tools, buckets | shears, compass, lanterns | iron tools, Efficiency I pickaxe | anvil / diamond block |
 | Weaponsmith (grindstone) | gravel, coal, sticks, raw copper | copper sword & axe, flint | iron sword & axe, shield, bell | Sharpness I iron weapons | iron block / blaze rod |
-| Fletcher (fletching table) | sticks, flint, feathers | arrows | spectral arrows | tipped arrows | target block / ghast tear |
+| Fletcher (fletching table) | sticks, flint, feathers | arrows | spectral arrows, slowness/weakness/poison arrows | harming, strong poison, slow falling, weaving, oozing and wind charged arrows | target block / ghast tear |
 | Tanner (cauldron) | leather, rabbit hide, string | item frames, bundles, leather gear | dyed leather armor | iron & gold horse armor, wolf armor | saddle / armadillo scute |
 | Cleric (brewing stand) | bottles, nether wart, rotten flesh, sugar | redstone, glowstone, potions | bottles o' enchanting, lapis | stronger potions | ghast tear / rabbit's foot |
 | Librarian (lectern) | sugar cane, ink sacs, feathers | books, paper, level I enchanted books | bookshelves, book and quill | chiseled bookshelves | amethyst cluster / echo shard |
@@ -82,7 +82,7 @@ An upgraded station's block works better too. Nothing is announced; the block ju
 | Barrel | 4 rows | 5 rows |
 | Stonecutter | Cuts wood | Turns stairs back into blocks |
 | Smithing table | Strip a trim (material back) | Re-trim in a new material without a template |
-| Grindstone | Mill cobble → gravel → sand, gravel → flint, bone → bone meal | Hone weapons and tools with flint for a temporary edge |
+| Grindstone | Mill at a loss: 64 cobble → 32 gravel → 16 sand or flint; bone → bone meal | Hone weapons and tools with flint for a temporary edge |
 | Loom | 8 banner layers | 12 banner layers |
 | Cartography table | One empty map makes two copies | **Cave Maps** |
 | Fletching table | Fletching screen, 6 arrows per craft | 16 tipped arrows per lingering potion; **explosive arrows** |
@@ -159,7 +159,8 @@ Operators have `/vr` (or `/villagerework`) for testing and admin:
 
 - Works alongside **Enchant Library**: the librarian's level I books unlock enchants on its shelves. Neither mod
   requires the other.
-- Vanilla trading and job claiming are switched off (both can be turned back on in the config). The wandering
+- Vanilla trading and job claiming are switched off (both can be turned back on in the config). Villagers no
+  longer hold up trade goods at you; farmers still farm, compost and breed as in vanilla. The wandering
   trader still trades, with the mod's own trades.
 - Other mods that change villager trading or professions will likely conflict.
 
@@ -167,13 +168,12 @@ Operators have `/vr` (or `/villagerework`) for testing and admin:
 
 - Explorer map rewards search for their structure like a vanilla cartographer, which can pause the server for a
   moment far from any mansion.
-- Switching a village's party off doesn't stop a song that's already playing.
 
 ## Building from source
 
 Requires JDK 25. Run `./gradlew build` (`gradlew.bat build` on Windows); the jar is in `build/libs/`.
 `./gradlew runClient` starts a test client. Developer notes and the full test checklist are in
-[`docs/development.md`](docs/development.md).
+[`docs/development/development.md`](docs/development/development.md).
 
 ## License
 

@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:bamboo_mosaic_stairs",
-  "result": {
-    "id": "minecraft:bamboo_mosaic"
-  }
-}
