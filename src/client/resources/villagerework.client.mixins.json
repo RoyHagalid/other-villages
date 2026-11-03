@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.villagerework.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractContainerScreenMixin",
+		"AbstractRecipeBookScreenMixin",
+		"FirstPersonMapMixin",
+		"LoomScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

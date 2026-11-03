@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "minecraft:horn_coral_block"
+  },
+  "max_uses": 6,
+  "reputation_discount": 0.0,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 3
+  }
+}

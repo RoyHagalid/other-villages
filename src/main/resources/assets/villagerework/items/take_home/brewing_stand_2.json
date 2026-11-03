@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "villagerework:item/take_home/brewing_stand_block"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "villagerework:item/take_home/brewing_stand_2"
+      }
+    ]
+  }
+}

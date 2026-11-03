@@ -1,0 +1,597 @@
+{
+  "parent": "villagerework:item/take_home/cauldron_block",
+  "textures": {
+    "vr_cauldron_side": "villagerework:block/tier/cauldron_side_2",
+    "vr_cauldron_top": "villagerework:block/tier/cauldron_top_2"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.01,
+        2.99,
+        -0.01
+      ],
+      "to": [
+        2.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#vr_cauldron_top",
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13.99,
+        2.99,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            2,
+            13
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            0,
+            16,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            0,
+            16,
+            13
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#vr_cauldron_top",
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1.99,
+        2.99,
+        -0.01
+      ],
+      "to": [
+        14.01,
+        16.01,
+        2.01
+      ],
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#vr_cauldron_top",
+          "uv": [
+            2,
+            0,
+            14,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1.99,
+        2.99,
+        13.99
+      ],
+      "to": [
+        14.01,
+        16.01,
+        16.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            0,
+            14,
+            13
+          ]
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#vr_cauldron_top",
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        4.01,
+        3.01,
+        2.01
+      ],
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        1.99
+      ],
+      "to": [
+        2.01,
+        3.01,
+        4.01
+      ],
+      "faces": {
+        "east": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        11.99,
+        -0.01,
+        -0.01
+      ],
+      "to": [
+        16.01,
+        3.01,
+        2.01
+      ],
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13.99,
+        -0.01,
+        1.99
+      ],
+      "to": [
+        16.01,
+        3.01,
+        4.01
+      ],
+      "faces": {
+        "east": {
+          "cullface": "east",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        13.99
+      ],
+      "to": [
+        4.01,
+        3.01,
+        16.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        -0.01,
+        11.99
+      ],
+      "to": [
+        2.01,
+        3.01,
+        14.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        11.99,
+        -0.01,
+        13.99
+      ],
+      "to": [
+        16.01,
+        3.01,
+        16.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            4,
+            16
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            14,
+            13,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        13.99,
+        -0.01,
+        11.99
+      ],
+      "to": [
+        16.01,
+        3.01,
+        14.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            0,
+            13,
+            2,
+            16
+          ]
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            2,
+            13,
+            4,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#vr_cauldron_side",
+          "uv": [
+            12,
+            13,
+            14,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}
